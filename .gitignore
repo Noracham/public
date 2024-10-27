@@ -1,7 +1,15 @@
-# wpフォルダー以下を全て無視
-/*
-!.gitignore
-!portfolio/
-!portfolio/**
-
-# その他無視したいファイルがあればここに追加
+# 除外されるディレクトリ
+/wp-admin/
+/wp-content/index.php
+/wp-content/languages
+/wp-content/plugins/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+wp-config.php
+/wp-content/uploads/
+*.log
+/.htaccess
