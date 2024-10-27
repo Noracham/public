@@ -1,0 +1,7 @@
+# wpフォルダー以下を全て無視
+/*
+!.gitignore
+!portfolio/
+!portfolio/**
+
+# その他無視したいファイルがあればここに追加
