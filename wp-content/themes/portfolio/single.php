@@ -7,7 +7,10 @@
     <section class="maindata">
         <?php the_content(); ?>
         <div class="return_menu">
-            <a href="<?php echo esc_url(home_url()) ?>"><img src="<?php echo esc_url(get_theme_file_uri('img/gosite_button.png')) ?>" alt="GOSITE" /></a>
+            <?php $url = get_field("url"); ?>
+            <?php if ($url):; ?>
+                <a href="<?php echo esc_url($url) ?>"><img src="<?php echo esc_url(get_theme_file_uri('img/gosite_button.png')) ?>" alt="GOSITE" /></a>
+            <?php endif; ?>
             <a href="<?php echo esc_url(home_url('/category/works')) ?>"><img src="<?php echo esc_url(get_theme_file_uri('img/return_button.png')) ?>" alt="戻る" /></a>
         </div>
     </section>

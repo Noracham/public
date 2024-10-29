@@ -14,11 +14,11 @@
                 </div>
             </div>
             <p class="me_txt">
-                2001年生まれ。24卒予定の専門学生。<br><br>
-                webデザイナー(エンジニア)を目指し、日進月歩しております。<br>
+                2001年生まれ。24卒専門学生。<br><br>
+                webエンジニアを目指し、日進月歩しております。<br>
                 2021年よりweb制作の道へ歩き出しました。<br><br>
                 良くも悪くも興味を持つと行動に移したくなる性格です。<br>
-                勉強しかり、ゲームしかり、やりたいことはやってみればいい！精神で生きています。<br><br>
+                勉強しかり、趣味しかり、やりたいことはチャレンジしてみる！精神で生きています。<br><br>
                 web制作を始めて、初のポートフォリオである本サイト。<br>
                 自分を知っていただくとともに、ぜひご覧ください。
             </p>
@@ -27,26 +27,23 @@
     <div class="info_about dream">
         <h1 class="s_title">MY DREAM</h1>
         <div class="dream_info">
-            <h2>Coder + Designer = WebDesign</h2>
-            <p>ひとことで言えば、わがまま欲張り<br>
-                デザインするのもコードに起こすのも楽しくて譲れない<br><br>
-                夢見るのはこの<span>「足し算」</span>が叶うデザイナーになること</p>
+            <h2>Best Answer</h2>
+            <p>仕事もプライベートも充実させたい<br>
+                いつでも幸せと心から思えるように。<br><br>
+                夢見るのは<span>「したいことをする」</span>が叶うエンジニアになること</p>
 
             <h2>Challenge × Trends = Idea</h2>
             <p>常に新しいこと（トレンド）に挑戦し続けたい<br>
-                現状に捉われない知識や考え方はかっこいい<br>
+                現状に捉われない知識や考え方はかっこいい！<br>
                 自分の中に今までにはなかったアイデアがきっと浮かぶはず</p>
 
             <h2>Where is your identity?</h2>
             <p>いつになっても、どんなに成長しても、ほんの少しでも<br><br>
                 <span>「自分らしさ」</span>は捨てたくない<br><br>
-                ただただ言われた通りにデザインするのは面白くない
+                ただただ言われた通りに生きていくのは面白くない
             </p>
         </div>
     </div>
-    <!-- <div class="info_about hometown">
-                    <h1 class="s_title">HOMETOWN</h1>
-                </div> -->
     <div class="info_about skill">
         <h1 class="s_title">MY SKILL</h1>
         <div class="all_skill">

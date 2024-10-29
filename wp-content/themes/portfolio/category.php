@@ -5,11 +5,12 @@
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="worksmob">
           <a href="<?php the_permalink() ?>">
-            <div class="mobimg">
-              <?php
-              if (has_post_thumbnail()) {
-                $img_url = wp_get_attachment_url(get_post_thumbnail_id());
-              }; ?>
+            <?php
+            if (has_post_thumbnail()) {
+              $img_url = wp_get_attachment_url(get_post_thumbnail_id());
+            }; ?>
+            <div class="mobimg" style="background-image:url('<?php echo $img_url; ?>')">
+              <span class="mobimg--filter"></span>
               <img src="<?php echo $img_url ?>" alt="<?php echo the_title() ?>" />
             </div>
             <div class="traiangle"></div>

@@ -222,7 +222,7 @@ $(function () {
   $(".mail").hover(
     function () {
       // over
-      $(".mail p").html("nsorym04<br>@gmail.com");
+      $(".mail p").text("nsorym04@gmail.com");
       $(".mail p").prop("id", "ip");
     },
     function () {
@@ -269,7 +269,9 @@ $(function () {
     $(".one_skill:nth-of-type(3) .tra2")
       .delay(500)
       .animate({ opacity: "1" }, 500);
-    // $(".one_skill:nth-of-type(3) .tra3").delay(1000).animate({"opacity":"1"},500);
+    $(".one_skill:nth-of-type(3) .tra3")
+      .delay(1000)
+      .animate({ opacity: "1" }, 500);
   });
   // javasctipt
   $(".one_skill:nth-of-type(4)").one("inview", function (event, isInView) {
@@ -296,7 +298,9 @@ $(function () {
   // php
   $(".one_skill:nth-of-type(7)").one("inview", function (event, isInView) {
     $(".one_skill:nth-of-type(7) .tra1").animate({ opacity: "1" }, 500);
-    // $(".one_skill:nth-of-type(7) .tra2").delay(500).animate({"opacity":"1"},500);
+    $(".one_skill:nth-of-type(7) .tra2")
+      .delay(500)
+      .animate({ opacity: "1" }, 500);
     // $(".one_skill:nth-of-type(7) .tra3").delay(1000).animate({"opacity":"1"},500);
   });
   // java
